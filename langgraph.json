@@ -1,7 +1,8 @@
 {
   "dependencies": ["."],
   "graphs": {
-    "email_assistant": "./src/agent/email_assistant.py:email_assistant"
+    "email_assistant": "./src/agent/email_assistant.py:email_assistant",
+    "email_assistant_hilt": "./src/agent/email_assistant_hilt.py:email_assistant_hilt"
   },
   "env": ".env",
   "image_distro": "wolfi"

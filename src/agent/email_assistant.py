@@ -163,7 +163,7 @@ def triage_router(state: State) -> Command[Literal["response_agent", "__end__"]]
 
 # Build workflow
 overall_workflow = (
-    StateGraph(State, input=StateInput)
+    StateGraph(State, input_schema=StateInput)
     .add_node(triage_router)
     .add_node("response_agent", agent)
     .add_edge(START, "triage_router")
