@@ -2,7 +2,8 @@
   "dependencies": ["."],
   "graphs": {
     "email_assistant": "./src/agent/email_assistant.py:email_assistant",
-    "email_assistant_hilt": "./src/agent/email_assistant_hilt.py:email_assistant_hilt"
+    "email_assistant_hilt": "./src/agent/email_assistant_hilt.py:email_assistant_hilt",
+    "email_assistant_hitl_memory": "./src/agent/email_assistant_hitl_memory.py:email_assistant_hitl_memory"
   },
   "env": ".env",
   "image_distro": "wolfi"
